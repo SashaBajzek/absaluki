@@ -1,0 +1,61 @@
+.Contact {
+	text-align: center;
+}
+
+.Contact__heading {
+	font-size: 20px;
+}
+
+.Contact__phonenumber {
+	position: relative;
+}
+
+.phone {
+	color: #1B6B74;
+	height: 25px;
+	padding: 0 10px;
+	position: absolute;
+	width: 40px;
+}
+
+.phone__component {
+	fill: #1B6B74;
+}
+
+.mapContainer {
+	border: 5px solid white;
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.4);
+	height: 200px;
+	margin: 40px auto 10px;
+	max-width: 275px;
+}
+
+.mapContainer .pawPrint {
+	height: 20px;
+	left: -10px;
+	opacity: 1;
+	position: relative;
+	width: 20px;
+}
+
+.mapContainer .pawPrint__component {
+	fill: #9c4043;
+}
+
+/* Small screen / tablet  */
+@media (min-width: 768px) {
+	.Contact__heading {
+		font-size: 26px;
+	}
+	
+	.Contact__phonenumber {
+		margin-bottom: 40px;
+	}
+	
+	.mapContainer {
+		height: 250px;
+		margin: 60px auto 10px;
+		max-width: 300px;
+	}
+	
+}
